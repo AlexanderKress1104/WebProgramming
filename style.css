@@ -1,0 +1,72 @@
+html {
+    background-color: gainsboro;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header h1 {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gainsboro;
+    border: 5px solid orange;
+}
+
+.header p {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(167, 112, 30);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 325px;
+}
+
+.nav li {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 149, 0);
+    border: 3px solid rgb(130, 207, 74);
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.main-content h2 {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(189, 64, 36);
+    border: 3px solid rgb(183, 201, 170);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 275px;
+}
+
+.flex-item {
+    padding: 10px;
+    margin: 10px;
+    background: brown;
+    border: 5px solid gray;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.footer p {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gainsboro;
+    border: 5px solid orange;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 325px;
+}
